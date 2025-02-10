@@ -16,18 +16,18 @@ This CLI tool interacts with a Kubernetes cluster to manage deployments.
 ## Usage
 
 ### List Deployments
-    ```bash
-    python sre.py list --namespace=default
-    ```
+```bash
+python sre.py list --namespace=default
+```
 ### Scale a Deployment
-    ```bash
-    python sre.py scale --deployment=my-deployment --replicas=3 --namespace=default
-    ```
+```bash
+python sre.py scale --deployment=my-deployment --replicas=3 --namespace=default
+```
 ### Get Deployment Info
-    ```bash
-    python sre.py info --deployment=my-deployment --namespace=default
-    ```
+```bash
+python sre.py info --deployment=my-deployment --namespace=default
+```
 ### Diagnose Deployment Health
-    ```bash
-    python sre.py diagnostic --deploy
-    ```
+```bash
+python sre.py diagnostic --deploy
+```
