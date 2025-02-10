@@ -11,7 +11,7 @@ This CLI tool interacts with a Kubernetes cluster to manage deployments.
 3. Configure your kubeconfig file (~/.kube/config)
 4. For your own convenient there is a sample deployment you can apply `flask-deployment.yaml` by running
    ```bash
-   kubectl apply -f deployment.yaml
+   kubectl apply -f flask-deployment.yaml
 
 ## Usage
 
